@@ -8,10 +8,6 @@ fn main() {
 
     ship.pop();
 
-    println!("{:?}", ship);
-    println!("---------------");
-    println!("{:?}", instructions);
-
 
     //Flip the arrays sideways
     //once flipped, we don't need the white spaces anymore
