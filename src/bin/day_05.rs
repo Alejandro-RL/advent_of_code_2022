@@ -20,7 +20,6 @@ fn main() {
     
     let mut answer1 = move1(ship, instructions);
     let mut answer2 = move2(ship2, instructions2);
-    //println!("{:?}", answer1);
     
     let mut ans1: String = String::new();
     let mut ans2: String = String::new();
