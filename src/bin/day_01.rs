@@ -40,8 +40,8 @@ fn read_file(file_path: &str){
         }
     }
   
-    let maxvalue = elves.iter().max();
-    println!("{:?}", maxvalue);
+    let maxvalue = elves.iter().max().unwrap();
+    println!("Part 1: {:?}", maxvalue);
 
     elves.sort();
     elves.reverse();
@@ -52,5 +52,5 @@ fn read_file(file_path: &str){
         maxvalues += elves[i];
     }
 
-    println!("{}",maxvalues);
+    println!("Part 2: {}",maxvalues);
 }
